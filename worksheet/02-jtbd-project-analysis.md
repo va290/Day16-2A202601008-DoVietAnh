@@ -9,7 +9,8 @@ companion-reference: Strategyn_JTBD_Playbook.pdf (giảng viên gửi kèm)
 
 # Lab 2 — JTBD Project Analysis / Dùng JTBD để soi lại dự án nhóm
 
-**Tên dự án / sản phẩm:** _______________  
+**Tên dự án / sản phẩm:** ISA — Trợ lý AI hỗ trợ Sinh viên Quốc tế & Hòa nhập (AI20K-C2-HE-14)  
+**Người làm:** Đỗ Việt Anh — 2A202601008 (Trưởng nhóm)  
 
 > Đây là **file duy nhất** của Lab 2.  
 > File này đồng thời đóng vai trò:
@@ -99,10 +100,10 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Điền nhanh trước khi làm
 
-- **Dự án của nhóm tôi là:** ___________________________________
-- **Lát cắt tôi chọn để phân tích hôm nay là:** ___________________________________
+- **Dự án của nhóm tôi là:** ISA — web app chatbot RAG trả lời câu hỏi của SV quốc tế dựa trên tài liệu chính thức, luôn kèm trích dẫn, đa ngôn ngữ, có guardrail + escalation cho luồng pháp lý/visa.
+- **Lát cắt tôi chọn để phân tích hôm nay là:** Giúp **SV quốc tế năm nhất (<3 tháng tại VN, chưa thạo tiếng Việt)** tự **làm đúng thủ tục cư trú/tạm trú đúng hạn** khi phải tra cứu **ngoài giờ hành chính**.
 - **Vì sao tôi chọn lát cắt này:**  
-  > ___________________________________
+  > Đây là hoàn cảnh đau nhất và rủi ro cao nhất (làm sai visa hậu quả lớn), đúng persona hẹp trong brief, và là nơi giá trị "trả lời chính thức có trích dẫn + biết khi nào chuyển người thật" của ISA khác biệt rõ nhất so với ChatGPT thuần.
 
 ### Viết quá rộng vs viết sắc hơn
 
@@ -121,13 +122,13 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Tóm tắt dự án trong 3 dòng
 
 1. **Nhóm tôi đang nghĩ mình đang giải quyết vấn đề gì?**  
-   > ___________________________________
+   > SV quốc tế năm nhất khó tìm **đúng** thông tin chính thức về thủ tục/sinh hoạt/học vụ **đúng lúc**, vì thông tin rải rác bằng tiếng Việt và hỗ trợ chỉ có trong giờ hành chính → dễ làm sai thủ tục, trễ hạn, hòa nhập chậm.
 
 2. **Người dùng chính hiện nhóm đang nhắm tới là ai?**  
-   > ___________________________________
+   > SV quốc tế **năm nhất, < 3 tháng tại VN**, chưa thạo tiếng Việt, đang làm thủ tục cư trú lần đầu, hay tra cứu ngoài giờ hành chính.
 
 3. **Hiện tại người dùng đó đang giải quyết vấn đề này bằng cách nào?**  
-   > ___________________________________
+   > Google dịch + tự lục nhiều trang web/PDF tiếng Việt của trường & cơ quan; hỏi bạn bè / nhóm Facebook SV quốc tế; hỏi ChatGPT (tiện nhưng dễ bịa, không nguồn); chờ đến giờ hành chính để hỏi Phòng CTSV/HTQT.
 
 ---
 
@@ -139,21 +140,20 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Trả lời 4 câu ngắn
 
 1. **Ai đang gặp vấn đề này?**  
-   > ___________________________________
+   > SV quốc tế năm nhất mới sang Việt Nam, chưa thạo tiếng Việt, lần đầu tự xử lý thủ tục cư trú/học vụ.
 
 2. **Vấn đề xuất hiện trong hoàn cảnh nào?**  
-   > ___________________________________
+   > Khi cần tra cứu/làm thủ tục **ngoài giờ hành chính** (tối, cuối tuần, sát deadline), thông tin lại rải rác bằng tiếng Việt và rủi ro làm sai cao (đặc biệt visa).
 
 3. **Hiện tại họ đang dùng giải pháp thay thế nào?**  
-   > ___________________________________
+   > Google dịch + tự lục web/PDF; nhóm Facebook/bạn bè SV; ChatGPT/Claude thuần; Phòng CTSV trong giờ hành chính.
 
 4. **Vì sao đây là thời điểm đáng giải?**  
-   > ___________________________________
+   > LLM + RAG nay đủ rẻ và đủ tốt để bám tài liệu chính thức, trích dẫn nguồn và trả lời đa ngôn ngữ 24/7 — điều mà chatbot FAQ cứng trước đây không làm được, còn ChatGPT thuần thì dễ bịa.
 
 ### Tóm tắt market context trong 3-4 dòng
 
-> _______________________________________________  
-> _______________________________________________
+> SV quốc tế năm nhất phải tự làm đúng các thủ tục rủi ro cao trong khi vừa kẹt rào cản ngôn ngữ, vừa chỉ được hỗ trợ trong giờ hành chính, vừa đối mặt thông tin rải rác. Các giải pháp hiện tại hoặc nhanh-nhưng-dễ-sai (ChatGPT, Google dịch), hoặc đúng-nhưng-chậm-và-giới-hạn-giờ (Phòng CTSV). Đây là lúc RAG có trích dẫn + escalation có thể vừa nhanh vừa đáng tin.
 
 ---
 
@@ -174,9 +174,9 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Điền
 
-- **Job executor của dự án này là:** ___________________________________
+- **Job executor của dự án này là:** SV quốc tế năm nhất (người trực tiếp tra cứu và tự làm thủ tục).
 - **Vì sao tôi tin đây là người trực tiếp "thuê" giải pháp để làm job:**  
-  > ___________________________________
+  > Chính họ là người gõ câu hỏi, đọc câu trả lời và đi nộp hồ sơ. Phòng CTSV/HTQT chỉ là **stakeholder/buyer giả định** định hướng sản phẩm, không phải người trực tiếp làm job; trường là tổ chức quá rộng. Người "đau" và hành động là SV.
 
 ---
 
@@ -207,16 +207,17 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Bản nháp 1
 
 **Core JTBD bản nháp:**  
-> _______________________________________________
+> Dùng chatbot AI để tra thủ tục cư trú ngoài giờ. _(còn lẫn solution)_
 
 ### Gạch bỏ từ solution nếu có
 
-- Các từ solution tôi đang lỡ nhét vào câu: _________________________________
+- Các từ solution tôi đang lỡ nhét vào câu: "chatbot AI", "tra" (thao tác trên tool)
 
 ### Bản chốt
 
 **Core JTBD cuối cùng:**  
-> _______________________________________________
+> Hoàn tất đúng một thủ tục cư trú/học vụ đúng hạn ngay khi cần, dù chưa thạo tiếng Việt và phải tự xoay ngoài giờ hỗ trợ.  
+> _(verb: hoàn tất đúng · object: một thủ tục cư trú/học vụ · contextual clarifier: đúng hạn, khi chưa thạo tiếng Việt & ngoài giờ hỗ trợ — không có tên sản phẩm/AI; job vẫn tồn tại nếu bỏ ISA đi)_
 
 ---
 
@@ -239,9 +240,9 @@ When [trigger], I want to [motivation], so I can [outcome].
 
 | # | Trigger / When | Motivation / I want to | Outcome / so I can | Điều story này cho thấy |
 |---|---|---|---|---|
-| JS1 | | | | |
-| JS2 | | | | |
-| JS3 | | | | |
+| JS1 | Vừa sang VN, phải đăng ký tạm trú trong vài ngày nhưng hướng dẫn toàn tiếng Việt | hiểu chính xác cần nộp giấy gì, ở đâu, hạn nào | làm đúng ngay lần đầu, không bị phạt/trễ hạn | Job xuất hiện lúc rủi ro cao, cần thông tin chính thức & rõ ràng |
+| JS2 | Gặp vướng mắc vào tối/cuối tuần khi Phòng CTSV đã đóng cửa | có câu trả lời đáng tin ngay lập tức | không phải chờ tới giờ hành chính và lỡ deadline | Giá trị "24/7" — thay thế kênh chỉ-giờ-hành-chính |
+| JS3 | Không chắc thông tin tìm trên Google/ChatGPT có đúng & còn hiệu lực không | thấy nguồn chính thức kèm câu trả lời | yên tâm hành động mà không sợ làm sai thủ tục rủi ro cao | Giá trị "trích dẫn nguồn" — khác biệt với ChatGPT thuần |
 
 ### Tự kiểm nhanh
 
@@ -268,14 +269,15 @@ Qua JTBD lens, đối thủ không chỉ là app cùng ngành.
 
 | Alternative hiện tại | User đang thuê nó để làm gì? | Nó làm tốt gì? | Nó fail ở đâu? | Switching cost hiện tại cao hay thấp? |
 |---|---|---|---|---|
-| Alt 1 | | | | |
-| Alt 2 | | | | |
-| Alt 3 | | | | |
+| Google dịch + tự lục web/PDF trường | Tự tìm & dịch hướng dẫn thủ tục | Miễn phí, sẵn có | Rải rác, dễ dịch sai, không biết bản nào mới/chính thức | Thấp |
+| Nhóm Facebook / bạn bè SV | Hỏi kinh nghiệm người đi trước | Đa ngôn ngữ, kinh nghiệm thật, gần gũi | Thông tin cũ/sai, không chính thống, không trích nguồn | Thấp |
+| ChatGPT / Claude thuần | Hỏi đáp tức thì, đa ngôn ngữ | Nhanh, hội thoại tự nhiên, "may đo" câu trả lời | Dễ bịa, không bám tài liệu chính thức, không trích nguồn | Thấp |
+| Phòng CTSV/HTQT (giờ hành chính) | Hỏi người thật, chính thống | Đáng tin, có thể xử lý ca khó | Chỉ giờ hành chính, rào cản ngôn ngữ, phải chờ/xếp hàng | Thấp–Trung |
 
 ### Kết luận nhanh
 
 **Nếu project của tôi biến mất hôm nay, user nhiều khả năng sẽ quay về:**  
-> _______________________________________________
+> ChatGPT/Claude + Google dịch cho tốc độ, rồi hỏi nhóm SV để "kiểm chứng" — tức là chấp nhận rủi ro sai để đổi lấy phản hồi tức thì. Đây chính là alternative ISA phải thắng.
 
 ---
 
@@ -310,23 +312,23 @@ Mục tiêu là nhìn ra:
 
 | Step | Trong workflow này user đang cố làm gì? | Hôm nay họ đang dùng gì? | Friction / pain hiện tại | Mức đau |
 |---|---|---|---|---|
-| Define | | | | Low / Med / High |
-| Locate | | | | Low / Med / High |
-| Prepare | | | | Low / Med / High |
-| Confirm | | | | Low / Med / High |
-| Execute | | | | Low / Med / High |
-| Monitor | | | | Low / Med / High |
-| Modify | | | | Low / Med / High |
-| Conclude | | | | Low / Med / High |
+| Define | Hiểu mình cần làm thủ tục gì, hạn khi nào | Email/loáng thoáng từ bạn, trường | Không rõ mình phải làm gì & deadline | Med |
+| Locate | Tìm đúng hướng dẫn & nguồn chính thức | Google, web/PDF trường, hỏi nhóm | Rải rác, tiếng Việt, không biết nguồn nào đúng & mới nhất | **High** |
+| Prepare | Chuẩn bị đúng giấy tờ/điều kiện | Tự suy từ thông tin lượm được | Thiếu sót, hiểu sai do dịch máy | High |
+| Confirm | Xác nhận mình hiểu đúng trước khi làm | Hỏi bạn / ChatGPT | Không ai đảm bảo đúng & còn hiệu lực; sợ sai | **High** |
+| Execute | Nộp hồ sơ / đi làm thủ tục | Đến cơ quan / nộp online | Phần lớn ngoài phạm vi app; nhưng chuẩn bị sai sẽ fail ở đây | Med |
+| Monitor | Theo dõi tiến độ & hạn | Tự nhớ | Quên hạn, không có checklist nhắc | Med |
+| Modify | Xử lý khi bị thiếu/sai hồ sơ | Làm lại, hỏi lại | Mất thời gian, lặp vòng, stress | Med |
+| Conclude | Biết chắc đã hoàn tất | Tự đoán | Không chắc đã đủ/đúng | Low–Med |
 
 ### Chốt 2 bước đau nhất
 
-**Bước đau nhất #1:** _________________________________  
-**Bước đau nhất #2:** _________________________________
+**Bước đau nhất #1:** Locate — tìm đúng nguồn chính thức, cập nhật, bằng ngôn ngữ hiểu được  
+**Bước đau nhất #2:** Confirm — xác nhận hiểu đúng & đáng tin trước khi hành động (rủi ro cao)
 
 **Vì sao đây là nơi đáng chú ý nhất:**  
-> _______________________________________________  
-> _______________________________________________
+> Đây là 2 bước user tốn công và sợ sai nhất, và là gốc của mọi lỗi xuống dưới (Prepare/Execute sai vì Locate/Confirm sai).  
+> Quan trọng hơn: đây đúng là chỗ ChatGPT thuần **fail** (bịa, không nguồn) — nên nếu ISA thắng ở Locate + Confirm thì mới có lý do tồn tại thay vì để user dùng ChatGPT.
 
 ---
 
@@ -345,16 +347,16 @@ Sau khi map workflow, mới hỏi:
 
 | Step | AI nên giúp bằng cách nào? | Vì sao AI hợp ở đây? | Rủi ro chính nếu dùng AI |
 |---|---|---|---|
-| 1 | | | |
-| 2 | | | |
+| Locate | RAG truy xuất & tóm tắt đúng đoạn tài liệu chính thức theo câu hỏi, đa ngôn ngữ, 24/7 | Đây là retrieval + dịch + tóm tắt — đúng thế mạnh LLM; pain cao | Retrieve sai đoạn / tài liệu KB cũ → trả lời lệch |
+| Confirm | Trả lời kèm **trích dẫn nguồn chính thức** + guardrail: luồng pháp lý/visa thiếu nguồn → banner "tham khảo" + **escalation** sang người thật | Tăng độ tin, giảm hậu quả sai; AI giỏi tóm tắt-có-dẫn-nguồn; biết khi nào dừng | Hallucination ở luồng rủi ro cao → phải bắt buộc escalate khi thiếu nguồn |
 
 ### Kết luận nhanh
 
 **AI leverage point quan trọng nhất của dự án tôi là:**  
-> _______________________________________________
+> Bước **Confirm**: câu trả lời bám tài liệu chính thức **có trích dẫn** + guardrail/escalation. Đây mới là giá trị lõi của ISA — không phải "trả lời nhanh" (ChatGPT đã làm được) mà là "trả lời **đúng, có nguồn, và biết khi nào chuyển người thật**".
 
 **Vì sao không phải ở bước khác:**  
-> _______________________________________________
+> Execute (nộp hồ sơ thực tế) nằm ngoài app; Define ít đau hơn và user thường đã biết đại khái phải làm gì. Locate quan trọng nhưng chỉ "tìm ra" thông tin là chưa đủ — với thủ tục rủi ro cao, user cần **tin** thông tin đó, nên Confirm (độ tin + escalation) mới là điểm quyết định họ rời ChatGPT.
 
 ---
 
@@ -373,13 +375,12 @@ vì [giá trị rõ nhất].
 
 ### Bản hypothesis của tôi
 
-> _______________________________________________  
-> _______________________________________________
+> Nếu chúng ta giúp **SV quốc tế năm nhất** làm đúng thủ tục cư trú/học vụ tốt hơn ở bước **Locate + Confirm**, bằng cách **trả lời RAG bám tài liệu chính thức kèm trích dẫn + guardrail/escalation, đa ngôn ngữ, 24/7**, thì họ sẽ chuyển từ **ChatGPT thuần + Google dịch + hỏi nhóm** sang **ISA**, vì đây là nơi duy nhất vừa **tức thì** vừa **đáng tin** (có nguồn chính thức và biết khi nào chuyển người thật).
 
 ### Tín hiệu sớm nếu hypothesis này đúng
 
-1. _______________________________________________
-2. _______________________________________________
+1. Tỉ lệ câu trả lời kèm trích dẫn cao và user **bấm xem nguồn** thường xuyên (groundedness + tin tưởng).
+2. Phần lớn câu hỏi rơi vào **ngoài giờ hành chính** và user **quay lại** lần sau (retention) — chứng tỏ ISA đang thay kênh cũ.
 
 ---
 
@@ -399,15 +400,15 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 | Assumption | Vì sao assumption này rủi ro? | Tôi đang có bằng chứng gì? | Cần validate bằng cách nào tiếp theo? |
 |---|---|---|---|
-| A1 | | | |
-| A2 | | | |
-| A3 | | | |
-| A4 | | | |
-| A5 | | | |
+| A1 — Đúng job executor: SV năm nhất **tự** tra & làm thủ tục | Có thể họ nhờ buddy/người bản địa làm hộ → ISA chệch người dùng | Suy luận từ persona trong brief, chưa có data thật | Phỏng vấn nhanh 5 SV quốc tế: ai thực sự thao tác? |
+| A2 — SV tra cứu **ngoài giờ hành chính** đủ thường xuyên | Nếu không, giá trị 24/7 giảm mạnh | Giả định trong user-research §5 | Đo **log thời điểm hỏi** |
+| A3 — Trích dẫn nguồn đủ để khiến SV **rời ChatGPT/Google dịch** | Họ có thể vẫn ưu tiên tốc độ & thói quen ChatGPT | Suy luận, chưa kiểm | A/B có vs không trích dẫn; đo retention/feedback |
+| A4 — Bộ tài liệu công khai phủ **≥80%** câu hỏi (AI thật sự tạo giá trị ở Locate) | KB thiếu → answer_rate thấp → phải escalate nhiều → mất giá trị | Giả định trong user-research §5 | Đo **answer_rate** qua bộ eval có version |
+| A5 — User đủ tin AI ở thủ tục **rủi ro cao (visa)** để hành động | Với visa họ có thể vẫn chỉ tin người thật | Chưa có | Đo **escalation_precision** + interview |
 
 ### Assumption nguy hiểm nhất nếu tôi đang sai
 
-> _______________________________________________
+> **A3 + A4**: nếu trích dẫn nguồn không đủ khiến SV rời ChatGPT, hoặc KB không phủ đủ câu hỏi, thì khác biệt cốt lõi của ISA sập — user sẽ ở lại với ChatGPT "đủ tốt và quen tay". Đây là giả định phải kiểm sớm nhất.
 
 ---
 
@@ -452,28 +453,27 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 ### Vì sao tôi giữ / sửa?
 
-> _______________________________________________  
-> _______________________________________________
+> _(điền sau khi nghe bàn phản biện tại lớp)_
 
 ### Version cuối cùng tôi nộp
 
 **Job executor:**  
-> _______________________________________________
+> SV quốc tế năm nhất (<3 tháng tại VN, chưa thạo tiếng Việt) — người trực tiếp tra cứu và tự làm thủ tục.
 
 **Core JTBD:**  
-> _______________________________________________
+> Hoàn tất đúng một thủ tục cư trú/học vụ đúng hạn ngay khi cần, dù chưa thạo tiếng Việt và phải tự xoay ngoài giờ hỗ trợ.
 
 **2 bước đau nhất trong workflow:**  
-> _______________________________________________
+> Locate (tìm đúng nguồn chính thức & cập nhật) và Confirm (xác nhận hiểu đúng, đáng tin trước khi hành động).
 
 **AI leverage point chính:**  
-> _______________________________________________
+> Bước Confirm — trả lời bám tài liệu chính thức **có trích dẫn** + guardrail/escalation cho luồng pháp lý/visa; đây là điểm khác biệt so với ChatGPT thuần.
 
 **Product hypothesis:**  
-> _______________________________________________
+> Nếu giúp SV quốc tế năm nhất làm đúng thủ tục tốt hơn ở Locate + Confirm bằng RAG có trích dẫn + escalation đa ngôn ngữ 24/7, họ sẽ chuyển từ ChatGPT + Google dịch + hỏi nhóm sang ISA, vì đây là nơi duy nhất vừa tức thì vừa đáng tin.
 
 **Assumption cần validate đầu tiên:**  
-> _______________________________________________
+> Trích dẫn nguồn chính thức có đủ khiến SV rời ChatGPT không (A3) — và KB có phủ ≥80% câu hỏi không (A4). Kiểm bằng A/B trích dẫn + đo answer_rate qua bộ eval.
 
 ---
 

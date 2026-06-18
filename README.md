@@ -1,4 +1,23 @@
-# Ngày 16 — Student Lab
+# Day16-2A202601008-DoVietAnh
+
+## Thông tin học viên
+
+- Mã học viên: 2A202601008
+- Họ tên: Đỗ Việt Anh
+- Track: AI Product Strategy
+
+## File nộp
+
+- 🎯 [Lab 1 — Case Analysis](./worksheet/01-case-analysis.md)
+- 🎯 [Lab 2 — JTBD Project Analysis](./worksheet/02-jtbd-project-analysis.md)
+
+## Ghi chú
+
+- Tài liệu tham khảo dùng cho Lab 2: `Strategyn_JTBD_Playbook.pdf` (giảng viên gửi kèm, không bắt buộc đưa vào repo).
+
+---
+
+# Ngày 16 — Student Lab (hướng dẫn gốc)
 
 ## Hôm nay cần làm gì?
 
